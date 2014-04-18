@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">L3 II Freedom</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="welcome">Use at your own risk!</string>
+    <string name="recovery_installer">Install CWM Recovery</string>
+    <string name="recovery_uninstaller">Restore Stock Recovery</string>
+    <string name="rebooter">Reboot to Recovery</string>
+    <string name="SD_Stuff">SD Card Data Hack</string>
+    <string name="title_activity_activity_recovery_installer">CWM Recovery by PlayfulGod</string>
+    <string name="title_activity_recovery_installer">CWM Installer</string>
+    <string name="recoveryDisclaimer">This will void your warranty, and you will need to be rooted.</string>string>
+    <string name="recovery_warning">Using the button combo to boot to recovery will WIPE DATA!!!\n So be sure to have made a backup!!!\n\n All other boot methods seem to work fine.</string>
+    <string name="install">INSTALL CWM</string>
+    <string name="title_activity_recovery_uninstaller">Restore To Stock</string>
+    <string name="title_activity_sdhacks">SD Card Hacks</string>
+    <string name="uninstall">Restore to Stock</string>
+    <string name="stockDisclaimer">This will restore the Stock LG recovery</string>
+    <string name="wip">THIS IS A WORK IN PROGRESS AND NOT WORKING YET</string>
+    <string name="format">SD Card Formatter</string>
+    <string name="SDhacks_installer">Change the Data Partition</string>
+    <string name="SDhacks_restore">Restore the Original Data Partition</string>
+    <string name="info">Dev Info</string>
+    <string name="title_activity_info">Developer Info</string>
+    <string name="title_activity_format">Formatter</string>
+    <string name="FormatDisclaimer">THIS WILL FORMAT YOUR SDCARD. ONLY PROCEED IF YOU ARE READY FOR THAT</string>
+    <string name="format_4gig">4 gig Data Partition</string>
+    <string name="format_2gig">2 gig Data Partition</string>
+    <string name="format_1gig">1 gig Data Partition</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="root">Attempt to Get Root</string>
+    <string name="title_activity_root">Get Root</string>
+    <string name="root_disclaimer">This will try to root your f3. It may or may not work. If it doesn\'t, just use saferoot from a pc.</string>
+    <string name="start_root">Attempt To Root</string>
+    <string name="title_activity_sdhacks_error">SDhacksErrorActivity</string>
+    <string name="sderror">I detected that your SD Card is already formatted or that Links2SD is already in place. This hack is not compatible with that. Factory Reset and delete any other partitions.</string>
+    <string name="error_format">Format the Second Partition</string>
+    <string name="clickme">Click ME</string>
+    <string name="app_developer"><b>Pressy4pie, PlayfulGod.</b>\n\n CWM ported by: <b>Pressy4pie.</b>\n\n SDCardHack implemented by: <b> PressY4pie.</b>\n\n Root method by: <b>k1mu.</b>\n\n Special Thanks to: the <b>#oudhitsquad.</b></string>
+    <string name="about_dialog_copyright">All Rights Reserved &#169; 2014 TechyGeek</string>
+    <string name="about_dialog_title"><b>About L3 II Freedom</b></string>
+    <string name="app_version">Version: 1.0</string>
+    <string name="about_dialog_developed_by_as_link">Developed by: <b>Pressy4pie, PlayfulGod.</b>\n\n CWM ported by: <b>PlayfulGod.</b>\n\n Special Thanks to: the <b>#oudhitsquad.</b></string>
+    <string name="web_url"><a href="http://mgd-llc.com">www.unleashedprepaids.com</a></string>
+    <string name="ok">Ok</string>
+    <string name="about_dialog_build_version">Build version: 1.0.0</string>
+    <string name="copyright">Copyright &#169; 2014 TechyGeek\nAll Rights Reserved</string>
+    <string name="startroot">Attempt to get Root</string>
+    <string name="title_activity_rooter">Getting Root</string>
+    <string name="rootme">Attempt the Root</string>
+
+
+</resources>

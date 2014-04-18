@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="@+id/linearLayout1"
+        android:layout_marginTop="-20dp"
+        android:src="@drawable/upp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageview1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-20dp"
+        android:gravity="center"
+        android:text="@string/welcome"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="15dp">
+
+        <Button
+            android:id="@+id/btn_main_rooter"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startroot"
+            android:text="@string/startroot"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_main_cwm"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="recoveryInstaller"
+            android:text="@string/recovery_installer" />
+
+        <Button
+            android:id="@+id/btn_main_stock"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="recoveryUninstaller"
+            android:text="@string/recovery_uninstaller" />
+
+        <Button
+            android:id="@+id/btn_main_sdhacks"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="sdhacks"
+            android:text="@string/SD_Stuff"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_main_rebooter"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="rebooter"
+            android:text="@string/rebooter" />
+
+        <Button
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:onClick="info"
+            android:text="@string/info" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"></LinearLayout>
+
+</RelativeLayout>

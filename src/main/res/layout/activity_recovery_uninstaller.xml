@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".RecoveryInstallerActivity"
+    android:background="@drawable/background1">
+
+    <ImageView
+        android:id="@+id/imageview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="@+id/StockLinearLayout"
+        android:layout_marginTop="-20dp"
+        android:src="@drawable/upp"/>
+
+<TextView
+        android:id="@+id/textViewUninstaller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageview1"
+        android:gravity="center"
+        android:text="@string/stockDisclaimer"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:id="@+id/StockLinearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:paddingTop="200dp" >
+
+        <Button
+            android:id="@+id/btn_recoveryUninstaller_Uninstaller"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="uninstaller"
+            android:text="@string/uninstall" />
+
+    </LinearLayout>
+
+</RelativeLayout>
